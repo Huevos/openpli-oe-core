@@ -298,7 +298,7 @@ do_install() {
 	printf "kexecmb=${HAVE_KEXECMB}\n" >> ${D}${INFOFILE}
 	printf "kernelfile='${KERNEL_FILE}'\n" >> ${D}${INFOFILE}
 	printf "machine='${MACHINE}'\n" >> ${D}${INFOFILE}
-	printf "model='${MACHINE}'\n" >> ${D}${INFOFILE}
+	printf "model='${MACHINE_MODEL}'\n" >> ${D}${INFOFILE}
 	printf "machinebuild='${MACHINEBUILD}'\n" >> ${D}${INFOFILE}
 	printf "mediaservice='${MEDIASERVICE}'\n" >> ${D}${INFOFILE}
 	printf "middleflash=${HAVE_MIDDLEFLASH}\n" >> ${D}${INFOFILE}
